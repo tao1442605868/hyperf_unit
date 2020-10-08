@@ -9,7 +9,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "hyperf_unit\\assembly\\": "src/"
+            "Hyperf\\assembly\\": "src/"
         }
     },
     "autoload-dev": {
@@ -24,7 +24,7 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
         "phpstan/phpstan": "^0.10.5",
-        "hyperf/testing": "1.1.*",
+        "Hyperf/testing": "1.1.*",
         "swoft/swoole-ide-helper": "dev-master"
     },
     "config": {
@@ -37,7 +37,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "hyperf_unit\\assembly\\ConfigProvider"
+            "config": "Hyperf\\assembly\\ConfigProvider"
         }
     }
 }
