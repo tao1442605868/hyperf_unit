@@ -1,5 +1,5 @@
 {
-    "name": "hyperf_unit/demo",
+    "name": "hyperf_unit/unit",
     "type": "library",
     "license": "MIT",
     "keywords": [
