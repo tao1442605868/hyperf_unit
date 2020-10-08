@@ -1,5 +1,5 @@
 {
-    "name": "hyperf_unit/unit",
+    "name": "hyperf_unit/assembly",
     "type": "library",
     "license": "MIT",
     "keywords": [
