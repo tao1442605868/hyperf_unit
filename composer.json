@@ -9,7 +9,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "hyperf_unit\\assembly\\": "src/"
+            "Hyperf\\assembly\\": "src/"
         }
     },
     "autoload-dev": {
@@ -36,7 +36,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "hyperf_unit\\assembly\\ConfigProvider"
+            "config": "Hyperf\\assembly\\ConfigProvider"
         }
     }
 }
