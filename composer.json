@@ -24,7 +24,6 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
         "phpstan/phpstan": "^0.10.5",
-        "Hyperf/testing": "1.1.*",
         "swoft/swoole-ide-helper": "dev-master"
     },
     "config": {
