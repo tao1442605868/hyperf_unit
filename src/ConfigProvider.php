@@ -28,6 +28,14 @@ class ConfigProvider
                     ],
                 ],
             ],
+            'publish' => [
+                [
+                    'id' => 'config',
+                    'description' => 'The config for apidog.',
+                    'source' => __DIR__ . '/../publish/cwtconfig.php',
+                    'destination' => BASE_PATH . '/config/autoload/cwtconfig.php',
+                ],
+            ],
         ];
     }
 }
