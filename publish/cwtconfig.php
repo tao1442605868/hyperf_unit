@@ -38,7 +38,6 @@ return [
 
         // 支付宝根证书路径
         // 'alipay_root_cert' => './cert/alipayRootCert.crt',
-
         // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/yansongda.pay.log'
         'log' => [
             'file' => BASE_PATH . '/runtime/logs/alipay.log',
