@@ -32,8 +32,8 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config for hyperf assembly',
-                    'source' => __DIR__ . '/../publish/cwtconfig.php',
-                    'destination' => BASE_PATH . '/config/autoload/cwtconfig.php',
+                    'source' => __DIR__ . '/../publish/cwtpay.php',
+                    'destination' => BASE_PATH . '/config/autoload/cwtpay.php',
                 ],
             ],
         ];
